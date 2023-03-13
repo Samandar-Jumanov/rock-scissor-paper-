@@ -56,11 +56,12 @@ choices_random_index = random.randint(0, choices_length-1)
 random_choice = choices[choices_random_index]
 print(random_choice)
 
-if  my_choice == "0" and random_choice[2] or my_choice == "1" and random_choice[1] or my_choice == "2" and random_choice[0]:
- print('You win')
-elif random_choice[0] and my_choice=="1" or random_choice[1]and my_choice =="0" or random_choice[2] and my_choice=="2":
- print('Computer wins')
-elif random_choice[0] and my_choice == "0" or random_choice[1] and my_choice == "2" or random_choice[2] and my_choice == "1":
- print('Equal')
+
+# if  my_choice == "0" and random_choice[2] or my_choice == "1" and random_choice[1] or my_choice == "2" and random_choice[0]:
+#  print('You win')
+# elif random_choice[0] and my_choice=="1" or random_choice[1]and my_choice =="0" or random_choice[2] and my_choice=="2":
+#  print('Computer wins')
+# elif random_choice[0] and my_choice == "0" or random_choice[1] and my_choice == "2" or random_choice[2] and my_choice == "1":
+#  print('Equal')
 
 
